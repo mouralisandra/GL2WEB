@@ -1,0 +1,103 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: whitesmoke;
+}
+
+body > * {
+    margin: auto;
+    padding: 0px,
+}
+
+#header, #footer{
+    width: 100%;
+    height: 6%;
+    margin: 0 auto;
+}
+
+#logo{
+    position: absolute;
+    height: 150px;
+    width: 150px;
+}
+
+#top{
+    position: relative;
+    width: 1000px;
+    margin-top: -4px;
+}
+
+body article
+{
+    backface-visibility: #0FF;
+}
+
+#flash{
+    width: inherit;
+    margin-bottom: -5px;
+}
+
+#navigation{
+    background-color:#913027;
+    position: relative;
+    margin: auto;
+}
+
+ul{
+    padding: 0px;
+    margin: 0 2px;
+    display: inline-block;
+    width: 100%;
+    height: 64px;  
+}
+
+li{
+    width: 196px;
+    margin: 0px;
+    height: inherit;
+    display: inline-flex;
+}
+
+li a{
+    font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+    text-decoration: none;
+    text-align: center;
+    color:white;
+    width: 100%;
+    padding: 15px 30px;
+    line-height: 200%;
+}
+
+li a:hover{
+    background-image: url(img/rings.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-color:black;
+}
+
+.content{
+    margin: auto;
+    width: 900px;
+}
+
+h3{
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+h1{
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    color: rgb(95, 26, 26);
+}
+
+.element{
+    padding: 5px;
+}
+
+#introText{
+    font-family: Verdana, Geneva, sans-serif;
+}
+
+.content a{
+    color: darkred;
+    text-decoration: none;
+}

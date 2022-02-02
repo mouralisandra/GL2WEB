@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+           <meta charset="UTF-8"/>
+    </head>
+    <body bgcolor="#fcff8c">
+        <div align="center">
+        <h1>Inscription à Polytechnique Paris</h1>
+        <form action="./media.html" >
+            <fieldset>
+                <legend align="center">Informations Personnelles</legend>
+                <label for="nom">Votre nom :</label>
+					<input type="text" name="nom" id="nom" size=15 maxlength=30 placeholder="Votre nom?"><br>
+                <label for="prenom">Votre prenom :</label>
+					<input type="text" name="prenom" id="prenom" size=15 maxlength=30 placeholder="Votre prenom?"><br>
+                <label for="date">Votre date de naissance :</label>
+					<input type="date" name="date" id="date"><br>
+                <label for="email">Votre email :</label>
+					<input type="email" name="email" id="email" size=25 maxlength=40 placeholder="x@exemple.com"><br>
+                <label for="url">Votre site :</label>
+					<input type="url" name="url" id="url" size=25 maxlength=40 placeholder="http://www.exemple.com"><br>
+                <label for="age">Votre age :</label>
+					<input type="number"  name="age" id="age" size=10 maxlength=3 ><br>
+                <label for="adresse">Votre adresse :</label>
+					<textarea name="adresse" id="adresse" placeholder="Votre adresse?"></textarea><br>
+                <label for="passwd">Mot de passe :</label>
+					<input required type="password" name="passwd" id="passwd" size=15 maxlength=30><br>
+                <label for="passwd2">Retaper votre mot de passe :</label>
+					<input required type="password" name="passwd2" id="passwd2" size=15 maxlength=30><br>
+            </fieldset>
+            <fieldset>
+                <legend align="center">Gestion des groupes et des options</legend>
+                    <label>Votre groupe :</label>
+						<input type="radio" name="groupe" value="groupe1" checked>groupe 1
+                        <input type="radio" name="groupe" value="groupe2">groupe 2
+                        <input type="radio" name="groupe" value="groupe3">groupe 3<br>
+                    <label for="ce">Numéro de carte d'étudiant :</label>
+						<input type="text"  name="ce" id="ce" size=15 maxlength=10><br>
+                    <label>Choisissez les options que vous désirez :</label>
+                    <select name="select" size="3">
+                        <option value="J2EE">J2EE</option> 
+                        <option value=".NET" selected>.NET</option>
+                        <option value="HTML5">HTML5</option>
+                        <option value="C++">C++</option>
+                        <option value="Python">Python</option>
+                    </select><br>
+                pattern <input pattern="[I][N][S][A][T][0-9]{4}" >
+            </fieldset>
+            <input type="submit" value="Valider">
+            <input type="reset" value="réinitialiser">
+            </div>
+        </form>
+    </body>
+</html>
